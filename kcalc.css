@@ -1,0 +1,100 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+.cover-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.cover-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+body{
+    background-image: url(../Documents/360_F_753354342_VhmMgkCsUg4o5IFjcA9WsI7DEtUbglAC.jpg);
+    background-size: cover;
+}
+.mea{
+    background-image: url(../Documents/accounting-pictures-5qi9vsyqu7otl4ki.webp);
+    background-size: cover;
+}
